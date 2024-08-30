@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="icon" href="./src/img/image.png" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="numberText">
+        <input class="textNumber" type="text">
+      </div>
+      <div class="divDelete">
+        <button class="acButton">AC</button>
+        <button class="delButton">DEL</button>
+      </div>
+      <div class="divNumber">
+        <div class="numberButton-0" onclick="addNumberInpute(0)"><button>0</button></div>
+        <div class="numberButton-1" onclick="addNumberInpute(1)"><button>1</button></div>
+        <div class="numberButton-2" onclick="addNumberInpute(2)"><button>2</button></div>
+        <div class="numberButton-3" onclick="addNumberInpute(3)"><button>3</button></div>
+        <div class="numberButton-4" onclick="addNumberInpute(4)"><button>4</button></div>
+        <div class="numberButton-5" onclick="addNumberInpute(5)"><button>5</button></div>
+        <div class="numberButton-6" onclick="addNumberInpute(6)"><button>6</button></div>
+        <div class="numberButton-7" onclick="addNumberInpute(7)"><button>7</button></div>
+        <div class="numberButton-8" onclick="addNumberInpute(8)"><button>8</button></div>
+        <div class="numberButton-9" onclick="addNumberInpute(9)"><button>9</button></div>
+      </div>
+      <div class="operator">
+        <button class="additionButton">+</button>
+        <button class="soustractionButton">-</button>
+        <button class="multiplicationButton">*</button>
+        <button class="divitionButton">/</button>
+        <button class="decimalButton">.</button>
+        <button class="egaleButton">=</button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
